@@ -3,16 +3,13 @@
 <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
 </head>
 <body>
-<h1>Profile</h1>
-
-<div>
-  <button id="prev">Previous</button>
-  <button id="next">Next</button>
-  &nbsp; &nbsp;
+<h1 style="text-align:center" >Profile</h1>
+<canvas id="the-canvas" style = "margin:auto; display:block"></canvas>
+<div style="text-align:center">
+  <button id="prev">Previous</button>&nbsp;
   <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+  <button id="next">Next</button>
 </div>
-
-<canvas id="the-canvas"></canvas>
 <script src="work.js"></script>
 </body>
 </html>
