@@ -1,15 +1,19 @@
 <html>
 <head>
-
+<link rel="stylesheet" href="./index.css">
 </head>
 <body>
 <h1 style="text-align:center" >Profile</h1>
+
 <canvas id="the-canvas" style = "margin:auto; display:block"></canvas>
+
 <div style="text-align:center">
+  <div class="loader" style = "margin:auto"></div>
   <button id="prev">Previous</button>&nbsp;
   <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
-  <button id="next">New</button>
+  <button id="next">Next</button>
 </div>
+
 <script src="./build/pdf.js"></script>
 <script src="./build/pdf.worker.js"></script>
 <script src="work.js"></script>
