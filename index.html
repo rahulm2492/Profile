@@ -1,6 +1,6 @@
 <html>
 <head>
-<script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
+
 </head>
 <body>
 <h1 style="text-align:center" >Profile</h1>
@@ -10,7 +10,10 @@
   <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
   <button id="next">New</button>
 </div>
+<script src="./build/pdf.js"></script>
+<script src="./build/pdf.worker.js"></script>
 <script src="work.js"></script>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

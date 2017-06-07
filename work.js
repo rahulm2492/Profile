@@ -1,7 +1,7 @@
 var url = 'RAHULMAHESHWARI.pdf';
 
 // The workerSrc property shall be specified.
-PDFJS.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.worker.js';
+PDFJS.workerSrc = 'build/pdf.worker.js';
 
 var pdfDoc = null,
     pageNum = 1,
