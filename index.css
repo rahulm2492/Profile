@@ -14,7 +14,7 @@
 }
 
 #page , #prev , #next  {
-  display:block;
+  display:none;
 }
 
 #page {
