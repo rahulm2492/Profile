@@ -89,6 +89,9 @@ PDFJS.getDocument(url).then(function(pdfDoc_) {
   document.getElementById('page_count').textContent = pdfDoc.numPages;
 
   // Initial/first page rendering
-  document.getElementsByClassName('loader')[0].style.display='block'
+  document.getElementsByClassName('loader')[0].style.display='none'
+  document.getElementById('page').style.display='block'
+  document.getElementById('prev').style.display='block'
+  document.getElementById('next').style.display='block'
   renderPage(pageNum);
 });
