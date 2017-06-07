@@ -14,5 +14,20 @@
 }
 
 #page , #prev , #next  {
-  display:none;
+  display:block;
+}
+
+#page {
+  margin-left:95px;
+  float:left;
+}
+#prev{
+  float:left;
+}
+#next{
+  float:right;
+}
+#mainDiv{
+  width: 339px;
+  margin: auto;
 }
